@@ -1,11 +1,12 @@
 import React from 'react'
 import Hero from './Components/Hero'
-import Container from './Components/Container'
+import GetOn from './Components/GetOn'
 
 const App = () => {
   return (
     <>
       <Hero/>
+      <GetOn/>
     </>
   )
 }
