@@ -64,11 +64,11 @@ const Hero = () => {
 
         <div className="flex flex-col items-center z-1">
           <img
-            className="h-40 w-40 mt-10"
+            className="h-30 sm:h-40 w-30 sm:w-40 mt-10"
             src="/hero-logo.png"
             alt="Hero Page logo"
           />
-          <h1 className="text-[64px] font-bold leading-16.75 text-center">
+          <h1 className="text-[45px] sm:text-[64px] font-bold leading-12 sm:leading-16.75 text-center">
             Dozens of apps. <br />
             One subscription. <br />
             $9.99 <br />
@@ -76,7 +76,7 @@ const Hero = () => {
 
           {/* BUTTONS  */}
           <div className="flex gap-4 items-center mt-10">
-            <a className="bg-white rounded-sm px-8 py-3 text-gray-700" href="#">
+            <a className="bg-white rounded-sm px-5 sm:px-8 py-3 text-gray-700" href="#">
               Try free for 7 days
             </a>
             <a className="bg-white rounded-sm py-2 px-3" href="#">
@@ -87,7 +87,7 @@ const Hero = () => {
             </a>
           </div>
 
-          <p className="text-center text-[18px] mt-10">
+          <p className="text-center sm:text-[18px] mt-10">
             Power up your workflow with Setapp, a <br />
             smart way to get apps.
           </p>
