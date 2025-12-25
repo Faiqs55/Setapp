@@ -3,6 +3,7 @@ import Hero from './Components/Hero'
 import GetOn from './Components/GetOn'
 import Feature from "./Components/Feautre"
 import Testimonials from './Components/Testimonials'
+import Pricing from './Components/Pricing'
 const App = () => {
   return (
     <>
@@ -10,6 +11,7 @@ const App = () => {
       <GetOn/>
       <Feature/>
       <Testimonials/>
+      <Pricing/>
     </>
   )
 }
