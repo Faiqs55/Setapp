@@ -28,7 +28,7 @@ const Feautre = () => {
     ]
 
   return (
-    <div className='bg-white w-full px-4 md:px-14 py-20'>
+    <div className='bg-white w-full px-4 md:px-14 py-20 border-b border-gray-200 mb-30'>
         <Carousel data={data}/>
     </div>
   )
