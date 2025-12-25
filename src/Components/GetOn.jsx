@@ -5,7 +5,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const GetOn = () => {
   return (
-    <div className="bg-[#26262b] text-white">
+    <div className="bg-[#26262b] text-white pb-50 md:pb-90 lg:pb-120">
       <Container className="border-b border-gray-400">
         <div className="flex justify-between py-20 sm:flex-row flex-col gap-5 sm:gap-0">
           <h2 className="text-[36px] font-semibold">What you get on Setapp.</h2>
