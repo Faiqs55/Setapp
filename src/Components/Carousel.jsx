@@ -24,7 +24,7 @@ const Carousel = ({ data }) => {
   };
 
   return (
-    <div className="relative -mt-45 sm:-mt-50 md:-mt-90 lg:-mt-110">
+    <div className="relative -mt-50 md:-mt-70 lg:-mt-110">
         <div className="buttons absolute right-4 top-4 sm:right-6 sm:top-6 md:right-10 md:top-10 flex gap-3 sm:gap-4 md:gap-5 text-2xl sm:text-3xl text-gray-300 z-20">
            <button className="cursor-pointer" onClick={goToPrevious}><FaChevronLeft/></button>
            <button className="cursor-pointer" onClick={goToNext}><FaChevronRight/></button>

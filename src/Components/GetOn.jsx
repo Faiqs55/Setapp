@@ -68,7 +68,7 @@ const GetOn = () => {
           </div>
         </div>
 
-        <a href="#" className="flex items-center gap-4 w-fit mx-auto my-15 text-[20px]"><FaArrowRightLong/> View All Superpowers</a>
+        <a href="#" className="flex items-center gap-4 w-fit mx-auto mt-20 text-[20px]"><FaArrowRightLong/> View All Superpowers</a>
         <div className="flex justify-between py-20 sm:flex-row flex-col gap-5 sm:gap-0">
           <h2 className="text-[36px] font-semibold">Your Setapp journey.</h2>
           <p className="text-[18px]">

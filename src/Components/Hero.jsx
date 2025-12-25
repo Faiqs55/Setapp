@@ -68,7 +68,7 @@ const Hero = () => {
             src="/hero-logo.png"
             alt="Hero Page logo"
           />
-          <h1 className="text-[45px] sm:text-[64px] font-bold leading-12 sm:leading-16.75 text-center">
+          <h1 className="text-[40px] sm:text-[64px] font-bold leading-12 sm:leading-16.75 text-center">
             Dozens of apps. <br />
             One subscription. <br />
             $9.99 <br />
@@ -76,7 +76,7 @@ const Hero = () => {
 
           {/* BUTTONS  */}
           <div className="flex gap-4 items-center mt-10">
-            <a className="bg-white rounded-sm px-5 sm:px-8 py-3 text-gray-700" href="#">
+            <a className="bg-white rounded-sm px-4 sm:px-8 py-3 text-gray-700" href="#">
               Try free for 7 days
             </a>
             <a className="bg-white rounded-sm py-2 px-3" href="#">

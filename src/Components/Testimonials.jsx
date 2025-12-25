@@ -40,7 +40,7 @@ const Testimonials = () => {
     ]
 
   return (
-    <div className="border-b border-gray-500 mb-70 md:mb-100 pb-16">
+    <div className="border-b border-gray-500 mb-70 md:mb-100 pb-20">
       <Container>
         <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center gap-6 lg:gap-0">
           <h2 className="text-2xl sm:text-3xl lg:text-[36px] font-semibold">Setapp in your words.</h2>
